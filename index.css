@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font: 20px verdana;
+   /* font: 14px verdana; */
+}
+
+body{
+    background-color: rgb(245, 248, 236);
+}
+
+
+main{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.paraf:hover{
+
+transform: scale(1.1);
+
+}
+
+
+
+li{
+    margin-top: 10px;
+    display: flex;
+    list-style-type: none;
+    width: 700px;
+    justify-content: center;
+    font-size: 20px ;
+    border: solid 1px rgb(11, 161, 36);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(250, 246, 215);
+}
+
+li:hover{
+    background-color: rgb(233, 241, 212);
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  
+
+}
+
+
+
+img {
+    display: block; /* Pour s'assurer que l'image est considérée comme un bloc */
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    margin-top: 60px;
+}
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.logo{
+
+    display: block;
+   margin-left:  80px;
+   position: fixed;
+   bottom: 475px;
+   width: 130px;
+  
+   
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    width: 120px;
+  height: 120px;
+  transition: transform 0.1s ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 1, 0.0);
+  cursor: pointer;
+}
+
+
+.paraf{
+    font-size:40px;
+    color: rgb(0, 0, 0);
+}
+
+
+.buttonLog{
+    background-color: rgb(6, 138, 94);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: fixed;   /* Fixe le bouton à l'écran */
+  bottom: 550px;      /* Distance depuis le bas de la page */
+  right: 80px;       /* Distance depuis le côté droit de la page */
+  z-index: 9999;  
+  width:150px;
+     /* Assure que le bouton est au-dessus du reste du contenu */
+}
+
+.buttonLog:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 167, 92);
+    cursor: pointer;
+}
+
+.buttonEnd:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.buttonEnd{
+    width: 600px;
+    background-color: rgb(42, 148, 113);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+  
+.buttonEnd:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 131, 40);
+    cursor: pointer;
+}
+
+
+span{
+  
+    font-size: 30px;
+
+
+
+}
